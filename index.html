@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>T-Luxe Hair | Luxury Human Hair & Wigs in Abuja, Nigeria</title>
+  <meta name="description" content="T-Luxe Hair offers premium 100% human hair wigs, bundles and closures in Abuja, Nigeria. Order on WhatsApp with nationwide delivery. Crowning you in confidence.">
+  <meta property="og:title" content="T-Luxe Hair | Luxury Human Hair & Wigs">
+  <meta property="og:description" content="Premium 100% human hair wigs, bundles and closures. Nationwide delivery from Abuja. Order directly on WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-poster.jpeg">
+  <link rel="canonical" href="https://tluxe-website.vercel.app/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "T-Luxe Hair",
+    "description": "Luxury human hair wigs, bundles and closures with nationwide delivery from Abuja, Nigeria.",
+    "image": "images/hero-poster.jpeg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Abuja",
+      "addressCountry": "NG"
+    },
+    "sameAs": ["https://instagram.com/tluxe_hair_"]
+  }
+  </script>
+</head>
+<body>
+
+   <header class="site-header">
+    <a href="#top" class="logo"><img src="images/logo.jpeg" alt="T-Luxe Hair logo"></a>
+        <nav class="site-nav">
+      <a href="#top">Home</a>
+      <a href="#catalog">Collection</a>
+      <a href="#about-section">About</a>
+      <a href="#reviews-section">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+        <button id="mobile-menu-btn" class="hamburger" type="button" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+    <div id="mobile-menu-backdrop" class="mobile-menu-backdrop"></div>
+  <nav id="mobile-menu" class="mobile-menu">
+    <a href="#top">Home</a>
+    <a href="#catalog">Collection</a>
+    <a href="#about-section">About</a>
+    <a href="#reviews-section">Reviews</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main id="top">
+    <section class="hero">
+            <h1 class="visually-hidden">T-Luxe Hair — Luxury Human Hair Wigs in Abuja, Nigeria</h1>
+            <img id="hero-image" class="hero-video" src="images/hero-poster.jpeg"alt="T-Luxe Hair luxury wig collection">
+      <div class="hero-overlay"></div>
+                  <div class="hero-content reveal">
+        <p id="hero-tagline" class="tagline"></p>
+        <p class="hero-subtext">100% luxury human hair, crafted with expertise, affordable prices, crowning beautiful ladies in premium style and making you stand out.</p>
+        <div class="hero-buttons">
+          <a id="hero-whatsapp" class="btn btn-gold btn-small" href="#">Shop on WhatsApp</a>
+          <a class="btn btn-outline btn-small" href="#catalog">See the collection</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div>100% human hair</div>
+      <div>Wigs, bundles &amp; closures</div>
+      <div>Nationwide delivery</div>
+    </section>
+            <section id="catalog" class="catalog">
+      <div class="catalog-header reveal">
+        <div class="catalog-title-row">
+          <button id="filter-toggle-btn" class="filter-toggle" type="button" aria-label="Filter">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="2" y1="5" x2="18" y2="5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <line x1="2" y1="10" x2="18" y2="10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <line x1="2" y1="15" x2="18" y2="15" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <circle cx="7" cy="5" r="1.8" fill="var(--espresso)" stroke="currentColor" stroke-width="1.4"/>
+              <circle cx="13" cy="10" r="1.8" fill="var(--espresso)" stroke="currentColor" stroke-width="1.4"/>
+              <circle cx="9" cy="15" r="1.8" fill="var(--espresso)" stroke="currentColor" stroke-width="1.4"/>
+            </svg>
+          </button> <button id="view-toggle-btn" class="view-toggle" type="button" aria-label="Toggle view">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/>
+              <rect x="11" y="2" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/>
+              <rect x="2" y="11" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/>
+              <rect x="11" y="11" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/>
+            </svg>
+          </button>
+                    <h2>Discover the Collection</h2>
+        </div>
+        <p class="section-sub">Choose your style</p>
+        <div id="filter-inline" class="filter-inline">
+          <div class="filter-inline-inner" id="filter-fields"></div>
+        </div>
+      </div>
+            <div id="carousel-view" class="carousel-view">
+        <button class="carousel-arrow carousel-arrow-left" id="carousel-prev" aria-label="Previous">&#8592;</button>
+        <div class="carousel-track" id="carousel-track"></div>
+        <button class="carousel-arrow carousel-arrow-right" id="carousel-next" aria-label="Next">&#8594;</button>
+      </div>
+      <div id="product-grid" class="product-grid" hidden></div>
+    </section>
+    </section>
+               <section class="about-section" id="about-section">
+      <div class="about-overlay"></div>
+      <div class="about-content reveal">
+        <h2>About T-Luxe Hairs</h2>
+        <p>At T-Luxe Hairs, we believe beautiful hair is more than an accessory — it's a reflection of confidence, individuality, and style.</p>
+        <p>We offer premium wigs and luxury human hair designed to complement every woman, every look, and every occasion. From timeless everyday styles to statement looks, our collections are carefully selected to deliver a soft, natural, and flawless finish.</p>
+        <p>Our goal is simple: to make you feel confident, beautiful, and effortlessly you.</p>
+        <p class="about-tagline">T-Luxe Hairs — Crowning You in Confidence.</p>
+      </div>
+    </section>
+
+    <section class="cream-section">
+           <h2>Why T-Luxe</h2>
+      <div class="benefits">
+        <div class="benefit reveal"><h3>100% human hair</h3><p>Wigs, bundles and closures.</p></div>
+        <div class="benefit reveal"><h3>Prices upfront</h3><p>Every price is on the page. No DM for price.</p></div>
+        <div class="benefit reveal"><h3>One-tap ordering</h3><p>Order on WhatsApp with the product, spec and price already filled in.</p></div>
+        <div class="benefit reveal"><h3>See before you buy</h3><p>Watch the hair in motion, not just in photos.</p></div>
+      </div>
+
+      <div class="delivery reveal">
+        <h3>Delivery from Abuja</h3>
+        <p>We deliver nationwide.</p>
+        <p class="placeholder-note">PLACEHOLDER: delivery times and fees to be confirmed with T-Luxe.</p>
+      </div>
+
+           <h2 id="reviews-section">What customers say</h2>
+      <div id="reviews" class="reviews"></div>
+    </section>
+  </main>
+   <footer class="site-footer" id="contact">
+    <p id="footer-brand" class="footer-brand"></p>
+    <p id="footer-location"></p>
+    <p>
+      <a id="footer-instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+      &nbsp;·&nbsp;
+      <a id="footer-whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </p>
+    <p id="footer-copy" class="footer-copy"></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
